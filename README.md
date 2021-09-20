@@ -18,8 +18,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-
-![](./images/completed-snapshot.png)
+![completed-snapshot](https://user-images.githubusercontent.com/86132757/134009715-dafed72d-db64-48ee-b86e-38f28193be3a.PNG)
 
 ### Links
 
