@@ -1,0 +1,138 @@
+@media (max-width: 68.75em) {
+  .secondary-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.2rem;
+    justify-content: space-around;
+  }
+  .preview-description {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .preview-header {
+    font-size: 3.6rem;
+    margin-bottom: 0;
+  }
+  .stats-box {
+    max-width: 100%;
+  }
+  .stats {
+    font-size: 1.6rem;
+  }
+  .stats-heading {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+  }
+
+  .bck-img {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 52.5em) {
+  .secondary-container {
+    row-gap: 1.6rem;
+  }
+  .preview-description {
+    font-size: 1.2rem;
+  }
+  .preview-header {
+    font-size: 3rem;
+  }
+
+  .stats {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 45.63em) {
+  .secondary-container {
+    margin: 2rem 6rem 2rem 4.5rem;
+    row-gap: 1.2rem;
+  }
+  .preview-description {
+    font-size: 1.2rem;
+  }
+  .preview-header {
+    font-size: 2.8rem;
+  }
+
+  .stats {
+    font-size: 1.2rem;
+  }
+  .stats-heading {
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 3.2rem;
+    text-align: center;
+  }
+  .secondary-container {
+    row-gap: 2rem;
+  }
+
+  .preview-description {
+    font-size: 1.4rem;
+  }
+
+  .bck-img {
+    max-width: 100%;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+  }
+
+  .stats {
+    font-size: 1.8rem;
+  }
+  .stats-heading {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 28.43em) {
+  .secondary-container {
+    row-gap: 2rem;
+    margin: 2rem 3.2rem 2rem 3.2rem;
+  }
+  .preview-header {
+    font-size: 2.4rem;
+  }
+  .preview-description {
+    font-size: 1.2rem;
+  }
+
+  .stats {
+    font-size: 1.4rem;
+  }
+  .stats-heading {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (max-width: 23.44em) {
+  .secondary-container {
+    row-gap: 2.4rem;
+    margin: 2rem 4.8rem 2rem 4.8rem;
+  }
+
+  .stats-box {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+  }
+  .stats {
+    font-size: 1.6rem;
+  }
+  .stats-heading {
+    font-size: 1.2rem;
+  }
+}
