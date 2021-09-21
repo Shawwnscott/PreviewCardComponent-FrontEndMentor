@@ -1,9 +1,10 @@
 @media (max-width: 68.75em) {
+  .main-container {
+    margin: 10rem 5rem;
+  }
   .secondary-container {
-    display: flex;
-    flex-direction: column;
+    margin: 6.4rem;
     row-gap: 3.2rem;
-    justify-content: space-around;
   }
   .preview-description {
     font-size: 1.4rem;
@@ -25,14 +26,22 @@
     letter-spacing: 1.5px;
   }
 
-  .bck-img {
+  /* .bck-img {
     max-width: 50%;
+  } */
+}
+
+@media (max-width: 59em) {
+  .secondary-container {
+    margin: 4.8rem;
+    row-gap: 2.4rem;
   }
 }
 
 @media (max-width: 52.5em) {
   .secondary-container {
-    row-gap: 1.6rem;
+    margin: 4.8rem;
+    row-gap: 2rem;
   }
   .preview-description {
     font-size: 1.2rem;
@@ -48,43 +57,58 @@
 
 @media (max-width: 45.63em) {
   .secondary-container {
-    margin: 2rem 6rem 2rem 4.5rem;
-    row-gap: 1.2rem;
+    margin: 3.2rem;
+    row-gap: 1.6rem;
   }
   .preview-description {
     font-size: 1.2rem;
   }
   .preview-header {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
 
   .stats {
     font-size: 1.2rem;
   }
   .stats-heading {
+    font-size: 9px;
     letter-spacing: 1px;
   }
 }
 
 @media (max-width: 37.5em) {
   .main-container {
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 3.2rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+
+    margin: 2.4rem;
     text-align: center;
   }
   .secondary-container {
-    row-gap: 2rem;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    margin: 5rem;
+    row-gap: 3.2rem;
   }
 
+  .preview-header {
+    font-size: 3.2rem;
+  }
   .preview-description {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
-  .bck-img {
-    max-width: 100%;
+  .img-container {
+    grid-column: 1 / span 2;
+    background-size: cover;
     border-bottom-right-radius: 0;
     border-top-left-radius: 10px;
+  }
+  .stats-box {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
   }
 
   .stats {
@@ -123,12 +147,6 @@
     margin: 2rem 4.8rem 2rem 4.8rem;
   }
 
-  .stats-box {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.6rem;
-  }
   .stats {
     font-size: 1.6rem;
   }
