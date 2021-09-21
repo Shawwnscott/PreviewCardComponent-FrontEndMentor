@@ -24,16 +24,18 @@ body {
   background-color: hsl(244, 38%, 16%);
   max-width: 120rem;
   margin: 15rem auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   border-radius: 10px;
 }
 
 .secondary-container {
-  /* border: solid #fff; */
-  align-self: center;
   color: hsla(0, 0%, 100%, 0.75);
-  margin: 0 10rem 0 6rem;
-  /* gap: 4.8rem; */
+  margin: 7rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .preview-header,
@@ -80,7 +82,16 @@ body {
   font-weight: 400;
 }
 
-.bck-img {
+.img-container {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  object-fit: fill;
+
+  background-image: linear-gradient(
+      hsla(277, 90%, 50%, 0.4),
+      hsla(277, 90%, 50%, 0.4),
+      hsla(277, 90%, 50%, 0.4)
+    ),
+    url(/images/image-header-desktop.jpg);
+  background-size: cover;
 }
